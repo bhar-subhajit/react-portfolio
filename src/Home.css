@@ -1,0 +1,73 @@
+
+.home {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.avatar{
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    object-fit: cover;
+    object-position: 0 27%;
+}
+
+.home-intro{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 5vh;
+}
+
+.text2 {
+    font-size: 4.5vh;
+}
+
+.text3 {
+    font-size: 4vh;
+}
+
+.extra-margin {
+    margin: 25vh 5vw;
+}
+
+.row {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.col {
+    padding: 10px;
+    height: auto;
+    font-size: 45px;
+    border-bottom: 1px solid white;
+}
+
+.left-col {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.right-col {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.col-heading {
+    font-size: 40px;
+}
+
+.col-desc {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .home{
+        margin-top: 237px;
+    }
+
+    .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+}
