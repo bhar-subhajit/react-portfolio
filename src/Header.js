@@ -18,7 +18,7 @@ function Header(props) {
           <div className="myHeader-right">
           <NavLink exact to="/" activeClassName="selected">Home</NavLink >
           <NavLink exact to="/resume" activeClassName="selected">Resume</NavLink >
-          <NavLink exact to="/contactMe" activeClassName="selected">Contact Mee..</NavLink >
+          <NavLink exact to="/contactMe" activeClassName="selected">Contact Me</NavLink >
           </div>
         </div>
     );
